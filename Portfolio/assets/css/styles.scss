@@ -19,10 +19,10 @@ body {
 }
 
 
- .main-title {
-//     // font-family: 'Pacifico', cursive;
-    //   text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000;
- }
+//  .main-title {
+// //     // font-family: 'Pacifico', cursive;
+//     //   text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000;
+//  }
 
 .icon-section {
     padding-top: 7rem;
@@ -33,7 +33,7 @@ body {
 .head-banner {
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: url(/BootstrapDemo/imgs/n2.jpg) #a5a5a5 no-repeat;
+    background: url(/imgs/n2.jpg) #a5a5a5 no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: color-burn;
@@ -97,7 +97,7 @@ body {
 }
 
 .contacts {
-    background: url(/BootstrapDemo/imgs/mail.png) no-repeat transparent;
+    background: url(/imgs/mail.png) no-repeat transparent;
     background-position: center;
     background-size: contain;
 }

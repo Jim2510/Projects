@@ -23,7 +23,7 @@ body h1 {
 .head-banner {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url(/BootstrapDemo/imgs/n2.jpg) #a5a5a5 no-repeat;
+  background: url(/imgs/n2.jpg) #a5a5a5 no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: color-burn;
@@ -81,7 +81,7 @@ body h1 {
 }
 
 .contacts {
-  background: url(/BootstrapDemo/imgs/mail.png) no-repeat transparent;
+  background: url(/imgs/mail.png) no-repeat transparent;
   background-position: center;
   background-size: contain;
 }
