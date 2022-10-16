@@ -12,25 +12,33 @@ body {
   scrollbar-width: 0;
 }
 body h1 {
+  font-family: "Squada One", cursive;
   font-size: 3em !important;
 }
 
+/*Section one */
 .icon-section {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  background-color: #FEFFDE;
 }
 
+/*HEADER*/
 .head-banner {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url(/imgs/n2.jpg) #a5a5a5 no-repeat;
+  background: url(/imgs/n2.jpg) #a3a3a3 no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: color-burn;
 }
+.head-banner .main-title {
+  font-family: "Squada One", cursive;
+  letter-spacing: 0;
+}
 
 .bgc {
-  background-color: #e4e4e4;
+  background-color: #bdbdbd;
 }
 
 .display-images .imgs {
@@ -40,26 +48,35 @@ body h1 {
   padding: 3rem;
 }
 
+/*SVGs */
 .imgwrk {
-  background: url(/Portfolio/imgs/undraw_digital_nomad_re_w8uy.svg) no-repeat;
+  background: url(/imgs/undraw_digital_nomad_re_w8uy.svg) no-repeat white;
   background-size: contain;
   background-position: center;
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
 }
 
 .imgprg {
-  background: url(/Portfolio/imgs/undraw_progress_overview_re_tvcl.svg) no-repeat;
+  background: url(/imgs/undraw_progress_overview_re_tvcl.svg) no-repeat white;
   background-size: contain;
   background-position: center;
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
 }
 
+/*Works imgs*/
+.work {
+  background: #DDFFBC;
+  background: -moz-linear-gradient(top, #DDFFBC 0%, #91C788 100%);
+  background: -webkit-linear-gradient(top, #DDFFBC 0%, #91C788 100%);
+  background: linear-gradient(to bottom, #DDFFBC 0%, #91C788 100%);
+}
 .work img {
   width: 100%;
 }
 
+/*Button*/
 .btn {
   border: 2px solid #525252 !important;
 }
@@ -67,11 +84,10 @@ body h1 {
 .prgss {
   height: fit-content !important;
   border-radius: 0 !important;
-  background-color: #f1f1f1 !important;
-}
-
-.none {
-  display: flex;
+  background: #91C788;
+  background: -moz-linear-gradient(top, #91C788 0%, #52734D 100%);
+  background: -webkit-linear-gradient(top, #91C788 0%, #52734D 100%);
+  background: linear-gradient(to bottom, #91C788 0%, #52734D 100%);
 }
 
 .vio {
@@ -79,9 +95,9 @@ body h1 {
 }
 
 .contacts {
-  background: url(/imgs/mail.png) no-repeat transparent;
+  background: url(/imgs/cnt.png) no-repeat transparent;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .animate-charcter {
@@ -97,12 +113,20 @@ body h1 {
 }
 
 .blr {
-  filter: blur(3px);
+  filter: blur(2px);
   transition: linear 0.8s;
 }
 
 .blr:hover {
   filter: blur(0);
+}
+
+label {
+  font-size: 2em;
+}
+
+.bg1 {
+  background-color: #DDFFBC;
 }
 
 @keyframes textclip {
@@ -111,6 +135,10 @@ body h1 {
   }
 }
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+
   .head-banner {
     padding-top: 12rem;
     padding-bottom: 12rem;
